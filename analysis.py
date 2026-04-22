@@ -12,7 +12,6 @@ average_time = data["time_spent"].mean()
 print("Average Time Spent:", average_time)
 
 # رسم بياني
-# رسم بياني احترافي
 avg_by_gender = data.groupby("gender")["time_spent"].mean()
 
 plt.figure(figsize=(8,5))
